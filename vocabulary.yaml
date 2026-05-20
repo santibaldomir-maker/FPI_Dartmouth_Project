@@ -1,0 +1,3591 @@
+modes:
+- code: FET
+  label: Fire/Explosion/Thermal Runaway
+  energy: Thermal/Chemical
+  base_score: 1
+  keywords:
+  - phrase: explosion
+    source: manual
+    added: '2026-05-17'
+  - phrase: exploded
+    source: manual
+    added: '2026-05-17'
+  - phrase: exploding
+    source: manual
+    added: '2026-05-17'
+  - phrase: detonated
+    source: manual
+    added: '2026-05-17'
+  - phrase: detonation
+    source: manual
+    added: '2026-05-17'
+  - phrase: arc blast
+    source: manual
+    added: '2026-05-17'
+  - phrase: thermal runaway
+    source: manual
+    added: '2026-05-17'
+  - phrase: battery fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: battery exploded
+    source: manual
+    added: '2026-05-17'
+  - phrase: flammable vapor ignition
+    source: manual
+    added: '2026-05-17'
+  - phrase: dust explosion
+    source: manual
+    added: '2026-05-17'
+  - phrase: flash fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: gas explosion
+    source: manual
+    added: '2026-05-17'
+  - phrase: gas ignition
+    source: manual
+    added: '2026-05-17'
+  - phrase: vapor cloud ignition
+    source: manual
+    added: '2026-05-17'
+  - phrase: bleve
+    source: manual
+    added: '2026-05-17'
+  - phrase: engulfing fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: fire engulf
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught on fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: clothing caught fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: clothing ignited
+    source: manual
+    added: '2026-05-17'
+  - phrase: structure fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: fire burn worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: ignition accident
+    source: manual
+    added: '2026-05-17'
+  - phrase: combustion accident
+    source: manual
+    added: '2026-05-17'
+  - phrase: small-scale fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: small scale fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: limited fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: warming fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: brushfire
+    source: manual
+    added: '2026-05-17'
+  - phrase: brush fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: grass fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: small fire incident
+    source: manual
+    added: '2026-05-17'
+  - phrase: ignited clothing
+    source: manual
+    added: '2026-05-17'
+  - phrase: shirt caught fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: pants caught fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught fire while welding
+    source: manual
+    added: '2026-05-17'
+  - phrase: welding fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: sparked fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: spontaneous combustion
+    source: manual
+    added: '2026-05-17'
+  - phrase: material ignited
+    source: manual
+    added: '2026-05-17'
+  - phrase: sustained burns
+    source: manual
+    added: '2026-05-17'
+  - phrase: suffered burns
+    source: manual
+    added: '2026-05-17'
+  - phrase: burns to hand
+    source: manual
+    added: '2026-05-17'
+  - phrase: burns to arm
+    source: manual
+    added: '2026-05-17'
+  - phrase: burns to leg
+    source: manual
+    added: '2026-05-17'
+  - phrase: burns to face
+    source: manual
+    added: '2026-05-17'
+  - phrase: burns to body
+    source: manual
+    added: '2026-05-17'
+  - phrase: burn injuries
+    source: manual
+    added: '2026-05-17'
+  - phrase: chemical burns
+    source: manual
+    added: '2026-05-17'
+  - phrase: thermal burns
+    source: manual
+    added: '2026-05-17'
+  - phrase: first degree burns
+    source: manual
+    added: '2026-05-17'
+  - phrase: second degree burns
+    source: manual
+    added: '2026-05-17'
+  - phrase: third degree burns
+    source: manual
+    added: '2026-05-17'
+  - phrase: line tie-in burn
+    source: manual
+    added: '2026-05-17'
+  - phrase: tie-in operations burn
+    source: manual
+    added: '2026-05-17'
+  - phrase: arc burn
+    source: manual
+    added: '2026-05-17'
+  - phrase: electrical burn
+    source: manual
+    added: '2026-05-17'
+  - phrase: steam burn
+    source: manual
+    added: '2026-05-17'
+  - phrase: hot surface burn
+    source: manual
+    added: '2026-05-17'
+  - phrase: scalded by
+    source: manual
+    added: '2026-05-17'
+  - phrase: scalding
+    source: manual
+    added: '2026-05-17'
+  - phrase: scalded
+    source: manual
+    added: '2026-05-17'
+- code: CEE
+  label: Confined/Engulfment/Entrapment
+  energy: Atmospheric
+  base_score: 1
+  keywords:
+  - phrase: confined space
+    source: manual
+    added: '2026-05-17'
+  - phrase: engulfment
+    source: manual
+    added: '2026-05-17'
+  - phrase: engulfed
+    source: manual
+    added: '2026-05-17'
+  - phrase: grain bin
+    source: manual
+    added: '2026-05-17'
+  - phrase: silo entry
+    source: manual
+    added: '2026-05-17'
+  - phrase: silo engulfment
+    source: manual
+    added: '2026-05-17'
+  - phrase: trench collapse
+    source: manual
+    added: '2026-05-17'
+  - phrase: excavation collapse
+    source: manual
+    added: '2026-05-17'
+  - phrase: cave-in
+    source: manual
+    added: '2026-05-17'
+  - phrase: cave in
+    source: manual
+    added: '2026-05-17'
+  - phrase: buried alive
+    source: manual
+    added: '2026-05-17'
+  - phrase: drowned
+    source: manual
+    added: '2026-05-17'
+  - phrase: drowning
+    source: manual
+    added: '2026-05-17'
+  - phrase: submerged
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell into water
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell into river
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell into pond
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell into lake
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell into tank
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell into pit
+    source: manual
+    added: '2026-05-17'
+  - phrase: manhole entry
+    source: manual
+    added: '2026-05-17'
+  - phrase: tank entry
+    source: manual
+    added: '2026-05-17'
+  - phrase: tunnel collapse
+    source: manual
+    added: '2026-05-17'
+  - phrase: asphyxiated
+    source: manual
+    added: '2026-05-17'
+  - phrase: asphyxia
+    source: manual
+    added: '2026-05-17'
+  - phrase: suffocated
+    source: manual
+    added: '2026-05-17'
+  - phrase: suffocation
+    source: manual
+    added: '2026-05-17'
+  - phrase: oxygen deficient
+    source: manual
+    added: '2026-05-17'
+  - phrase: oxygen depletion
+    source: manual
+    added: '2026-05-17'
+  - phrase: entered confined
+    source: manual
+    added: '2026-05-17'
+  - phrase: inside tank
+    source: manual
+    added: '2026-05-17'
+  - phrase: inside vessel
+    source: manual
+    added: '2026-05-17'
+  - phrase: inside silo
+    source: manual
+    added: '2026-05-17'
+  - phrase: below grade entry
+    source: manual
+    added: '2026-05-17'
+  - phrase: valve vault entry
+    source: manual
+    added: '2026-05-17'
+  - phrase: trench entry
+    source: manual
+    added: '2026-05-17'
+  - phrase: exposure to traumatic environment
+    source: manual
+    added: '2026-05-17'
+  - phrase: entered confined area without permit
+    source: manual
+    added: '2026-05-17'
+  - phrase: confined atmosphere
+    source: manual
+    added: '2026-05-17'
+  - phrase: drowning incident
+    source: manual
+    added: '2026-05-17'
+  - phrase: near drowning
+    source: manual
+    added: '2026-05-17'
+  - phrase: submerged in liquid
+    source: manual
+    added: '2026-05-17'
+  - phrase: grain bin entrapment
+    source: manual
+    added: '2026-05-17'
+  - phrase: sand entrapment
+    source: manual
+    added: '2026-05-17'
+  - phrase: soil engulfment
+    source: manual
+    added: '2026-05-17'
+- code: SLL
+  label: Suspended/Lifted Load Path
+  energy: Gravitational
+  base_score: 1
+  keywords:
+  - phrase: struck by crane
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by rigging
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by sling
+    source: manual
+    added: '2026-05-17'
+  - phrase: suspended load
+    source: manual
+    added: '2026-05-17'
+  - phrase: hoisted material
+    source: manual
+    added: '2026-05-17'
+  - phrase: crane load struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: crane swing struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: crane boom struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: rigging failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: rigging failed
+    source: manual
+    added: '2026-05-17'
+  - phrase: sling failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: sling failed
+    source: manual
+    added: '2026-05-17'
+  - phrase: load dropped
+    source: manual
+    added: '2026-05-17'
+  - phrase: load fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: load swung
+    source: manual
+    added: '2026-05-17'
+  - phrase: load struck worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: tag line struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: tag line snapped
+    source: manual
+    added: '2026-05-17'
+  - phrase: headache ball
+    source: manual
+    added: '2026-05-17'
+  - phrase: crane block fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: lift plan failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: below crane path
+    source: manual
+    added: '2026-05-17'
+  - phrase: working under load
+    source: manual
+    added: '2026-05-17'
+  - phrase: under suspended load
+    source: manual
+    added: '2026-05-17'
+  - phrase: steel erection fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: beam fell while lifting
+    source: manual
+    added: '2026-05-17'
+  - phrase: pick and carry failure
+    source: manual
+    added: '2026-05-17'
+- code: SME
+  label: Stored Mechanical Energy
+  energy: Pressure
+  base_score: 1
+  keywords:
+  - phrase: cable snapped
+    source: manual
+    added: '2026-05-17'
+  - phrase: cable parted
+    source: manual
+    added: '2026-05-17'
+  - phrase: cable broke
+    source: manual
+    added: '2026-05-17'
+  - phrase: cable whipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: tensioned cable
+    source: manual
+    added: '2026-05-17'
+  - phrase: wire rope snap
+    source: manual
+    added: '2026-05-17'
+  - phrase: wire rope failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: hydraulic burst
+    source: manual
+    added: '2026-05-17'
+  - phrase: hydraulic hose burst
+    source: manual
+    added: '2026-05-17'
+  - phrase: hydraulic line burst
+    source: manual
+    added: '2026-05-17'
+  - phrase: hydraulic failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: hydraulic release
+    source: manual
+    added: '2026-05-17'
+  - phrase: pneumatic burst
+    source: manual
+    added: '2026-05-17'
+  - phrase: pneumatic release
+    source: manual
+    added: '2026-05-17'
+  - phrase: pneumatic hose burst
+    source: manual
+    added: '2026-05-17'
+  - phrase: spring release
+    source: manual
+    added: '2026-05-17'
+  - phrase: spring snapped
+    source: manual
+    added: '2026-05-17'
+  - phrase: pressurized burst
+    source: manual
+    added: '2026-05-17'
+  - phrase: pressurized release
+    source: manual
+    added: '2026-05-17'
+  - phrase: hose burst
+    source: manual
+    added: '2026-05-17'
+  - phrase: hose whipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: hose kicked
+    source: manual
+    added: '2026-05-17'
+  - phrase: stored energy release
+    source: manual
+    added: '2026-05-17'
+  - phrase: valve failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: valve burst
+    source: manual
+    added: '2026-05-17'
+  - phrase: pressure vessel failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: accumulator failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: winch failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: winch snapped
+    source: manual
+    added: '2026-05-17'
+  - phrase: come-along failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: loto failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: lockout failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: lockout tagout failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: unexpected energy release
+    source: manual
+    added: '2026-05-17'
+  - phrase: unexpected energization
+    source: manual
+    added: '2026-05-17'
+  - phrase: pressure relief failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: re-energized accidentally
+    source: manual
+    added: '2026-05-17'
+  - phrase: fitting blew
+    source: manual
+    added: '2026-05-17'
+  - phrase: torque release
+    source: manual
+    added: '2026-05-17'
+  - phrase: object broke in hand
+    source: manual
+    added: '2026-05-17'
+  - phrase: handle broke
+    source: manual
+    added: '2026-05-17'
+  - phrase: tool broke
+    source: manual
+    added: '2026-05-17'
+  - phrase: equipment failure release
+    source: manual
+    added: '2026-05-17'
+  - phrase: pressurized line failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: line burst
+    source: manual
+    added: '2026-05-17'
+  - phrase: pipe burst
+    source: manual
+    added: '2026-05-17'
+  - phrase: hydraulic line failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: pneumatic failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: compressed air release
+    source: manual
+    added: '2026-05-17'
+  - phrase: high pressure release
+    source: manual
+    added: '2026-05-17'
+  - phrase: cylinder burst
+    source: manual
+    added: '2026-05-17'
+  - phrase: tank rupture
+    source: manual
+    added: '2026-05-17'
+  - phrase: spring-loaded mechanism
+    source: manual
+    added: '2026-05-17'
+  - phrase: tensioned cable snap
+    source: manual
+    added: '2026-05-17'
+  - phrase: snatch block failure
+    source: manual
+    added: '2026-05-17'
+- code: LFR
+  label: Line-of-Fire Release
+  energy: Kinetic
+  base_score: 1
+  keywords:
+  - phrase: line of fire
+    source: manual
+    added: '2026-05-17'
+  - phrase: recoil
+    source: manual
+    added: '2026-05-17'
+  - phrase: kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: snapback
+    source: manual
+    added: '2026-05-17'
+  - phrase: snap-back
+    source: manual
+    added: '2026-05-17'
+  - phrase: whipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: whipping
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by flying pipe
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by flying hose
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by flying cable
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by flying wire
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by flying chain
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by flying rod
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by flying bar
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by flying beam
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by flying plank
+    source: manual
+    added: '2026-05-17'
+  - phrase: flying debris
+    source: manual
+    added: '2026-05-17'
+  - phrase: flying fragment
+    source: manual
+    added: '2026-05-17'
+  - phrase: ejected material
+    source: manual
+    added: '2026-05-17'
+  - phrase: ejected object
+    source: manual
+    added: '2026-05-17'
+  - phrase: projectile
+    source: manual
+    added: '2026-05-17'
+  - phrase: spall
+    source: manual
+    added: '2026-05-17'
+  - phrase: ricochet
+    source: manual
+    added: '2026-05-17'
+  - phrase: flung object
+    source: manual
+    added: '2026-05-17'
+  - phrase: launched projectile
+    source: manual
+    added: '2026-05-17'
+  - phrase: propelled fragment
+    source: manual
+    added: '2026-05-17'
+  - phrase: thrown object
+    source: manual
+    added: '2026-05-17'
+  - phrase: thrown debris
+    source: manual
+    added: '2026-05-17'
+  - phrase: grinder kicked back
+    source: manual
+    added: '2026-05-17'
+  - phrase: grinder kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: saw kicked back
+    source: manual
+    added: '2026-05-17'
+  - phrase: saw kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: chainsaw kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: circular saw kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: angle grinder kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: tool kicked back
+    source: manual
+    added: '2026-05-17'
+  - phrase: power tool recoil
+    source: manual
+    added: '2026-05-17'
+  - phrase: drill kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: chisel slipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: chisel kicked
+    source: manual
+    added: '2026-05-17'
+  - phrase: router kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: jigsaw kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: reciprocating saw kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: sawzall kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: impact driver kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: torque wrench slipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: wrench slipped off
+    source: manual
+    added: '2026-05-17'
+  - phrase: tool recoil
+    source: manual
+    added: '2026-05-17'
+  - phrase: pneumatic tool kickback
+    source: manual
+    added: '2026-05-17'
+  - phrase: nail gun misfire
+    source: manual
+    added: '2026-05-17'
+  - phrase: nail gun fired unintentionally
+    source: manual
+    added: '2026-05-17'
+  - phrase: pneumatic nail gun
+    source: manual
+    added: '2026-05-17'
+- code: EEE
+  label: Energized Electrical Exposure
+  energy: Electrical
+  base_score: 1
+  keywords:
+  - phrase: electrocution
+    source: manual
+    added: '2026-05-17'
+  - phrase: electrocuted
+    source: manual
+    added: '2026-05-17'
+  - phrase: arc flash
+    source: manual
+    added: '2026-05-17'
+  - phrase: power line contact
+    source: manual
+    added: '2026-05-17'
+  - phrase: contacted power line
+    source: manual
+    added: '2026-05-17'
+  - phrase: overhead line contact
+    source: manual
+    added: '2026-05-17'
+  - phrase: energized line
+    source: manual
+    added: '2026-05-17'
+  - phrase: energized conductor
+    source: manual
+    added: '2026-05-17'
+  - phrase: energized equipment
+    source: manual
+    added: '2026-05-17'
+  - phrase: energized panel
+    source: manual
+    added: '2026-05-17'
+  - phrase: energized wire
+    source: manual
+    added: '2026-05-17'
+  - phrase: high voltage
+    source: manual
+    added: '2026-05-17'
+  - phrase: electrical shock
+    source: manual
+    added: '2026-05-17'
+  - phrase: electrical contact
+    source: manual
+    added: '2026-05-17'
+  - phrase: electrical burn
+    source: manual
+    added: '2026-05-17'
+  - phrase: shocked by live wire
+    source: manual
+    added: '2026-05-17'
+  - phrase: shocked by energized
+    source: manual
+    added: '2026-05-17'
+  - phrase: induced voltage
+    source: manual
+    added: '2026-05-17'
+  - phrase: contacted energized
+    source: manual
+    added: '2026-05-17'
+  - phrase: ground fault injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: electric current passed through
+    source: manual
+    added: '2026-05-17'
+  - phrase: live wire contact
+    source: manual
+    added: '2026-05-17'
+  - phrase: bare wire contact
+    source: manual
+    added: '2026-05-17'
+  - phrase: exposed wire contact
+    source: manual
+    added: '2026-05-17'
+  - phrase: direct exposure to electricity
+    source: manual
+    added: '2026-05-17'
+  - phrase: direct electrical exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: electrical exposure greater than 220
+    source: manual
+    added: '2026-05-17'
+  - phrase: electrical exposure 220 volts
+    source: manual
+    added: '2026-05-17'
+  - phrase: exposure to live wire
+    source: manual
+    added: '2026-05-17'
+  - phrase: contacted live wire
+    source: manual
+    added: '2026-05-17'
+  - phrase: touched live
+    source: manual
+    added: '2026-05-17'
+  - phrase: shocked by electricity
+    source: manual
+    added: '2026-05-17'
+  - phrase: electrical shock while
+    source: manual
+    added: '2026-05-17'
+  - phrase: electricity contact
+    source: manual
+    added: '2026-05-17'
+  - phrase: received electrical shock
+    source: manual
+    added: '2026-05-17'
+  - phrase: electrical jolt
+    source: manual
+    added: '2026-05-17'
+  - phrase: electrical incident
+    source: manual
+    added: '2026-05-17'
+  - phrase: electricity hazard
+    source: manual
+    added: '2026-05-17'
+  - phrase: direct contact with electricity
+    source: manual
+    added: '2026-05-17'
+  - phrase: contacted electrical source
+    source: manual
+    added: '2026-05-17'
+- code: EOE
+  label: Equipment Operating Envelope
+  energy: Kinetic
+  base_score: 1
+  keywords:
+  - phrase: struck by excavator
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by backhoe
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by loader
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by bulldozer
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by dozer
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by grader
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by compactor
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by roller
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by paver
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by telehandler
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by skid steer
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by haul truck
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by dump truck
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by crane swing
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by boom swing
+    source: manual
+    added: '2026-05-17'
+  - phrase: run over by
+    source: manual
+    added: '2026-05-17'
+  - phrase: run down by
+    source: manual
+    added: '2026-05-17'
+  - phrase: backed over
+    source: manual
+    added: '2026-05-17'
+  - phrase: backing struck worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: equipment backed over
+    source: manual
+    added: '2026-05-17'
+  - phrase: equipment struck worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: worker struck by equipment
+    source: manual
+    added: '2026-05-17'
+  - phrase: worker struck by machine
+    source: manual
+    added: '2026-05-17'
+  - phrase: worker struck by bucket
+    source: manual
+    added: '2026-05-17'
+  - phrase: worker struck by boom
+    source: manual
+    added: '2026-05-17'
+  - phrase: equipment arm contact
+    source: manual
+    added: '2026-05-17'
+  - phrase: bucket swing struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: equipment traveling struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: nonroadway collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: non-roadway collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: nonroadway vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: nonroadway incident
+    source: manual
+    added: '2026-05-17'
+  - phrase: powered industrial vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: forklift incident
+    source: manual
+    added: '2026-05-17'
+  - phrase: forklift collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: forklift accident
+    source: manual
+    added: '2026-05-17'
+  - phrase: operating a forklift
+    source: manual
+    added: '2026-05-17'
+  - phrase: piv collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: industrial truck collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: lift truck collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: reach truck
+    source: manual
+    added: '2026-05-17'
+  - phrase: order picker
+    source: manual
+    added: '2026-05-17'
+  - phrase: sit-down forklift
+    source: manual
+    added: '2026-05-17'
+  - phrase: stand-up forklift
+    source: manual
+    added: '2026-05-17'
+  - phrase: counterbalance forklift
+    source: manual
+    added: '2026-05-17'
+  - phrase: collision between moving and standing vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by forklift
+    source: manual
+    added: '2026-05-17'
+  - phrase: run over by forklift
+    source: manual
+    added: '2026-05-17'
+  - phrase: forklift ran over
+    source: manual
+    added: '2026-05-17'
+  - phrase: vehicle struck employee
+    source: manual
+    added: '2026-05-17'
+  - phrase: vehicle struck worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: vehicle struck pedestrian
+    source: manual
+    added: '2026-05-17'
+  - phrase: mobile equipment struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: equipment ran over
+    source: manual
+    added: '2026-05-17'
+  - phrase: backing vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: vehicle reversed into
+    source: manual
+    added: '2026-05-17'
+  - phrase: reversing vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: skid steer collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: bobcat struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: loader collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: sweeper collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: floor scrubber collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: tugger collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: tow motor collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: cherry picker collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: scissor lift collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: operating motorized equipment
+    source: manual
+    added: '2026-05-17'
+  - phrase: motorized land vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: motorized vehicle incident
+    source: manual
+    added: '2026-05-17'
+- code: VPT
+  label: Vehicle/Traffic Interface
+  energy: Kinetic
+  base_score: 1
+  keywords:
+  - phrase: struck by car
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by automobile
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by pickup
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by semi
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by tractor trailer
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by motorist
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by passing vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: vehicle struck worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: car struck worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: truck struck worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: traffic struck worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: roadway struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: highway struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: work zone struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: hit by car
+    source: manual
+    added: '2026-05-17'
+  - phrase: hit by traffic
+    source: manual
+    added: '2026-05-17'
+  - phrase: flagger struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: flagman struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: pedestrian struck by vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: traffic collision worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: work zone crash
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by reversing vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: vehicle backup struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: roadway collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: motor vehicle accident
+    source: manual
+    added: '2026-05-17'
+  - phrase: motor vehicle collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: vehicle accident while driving
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by truck on road
+    source: manual
+    added: '2026-05-17'
+  - phrase: pedestrian struck by vehicle on road
+    source: manual
+    added: '2026-05-17'
+  - phrase: highway collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: roadway incident
+    source: manual
+    added: '2026-05-17'
+  - phrase: moving perpendicularly
+    source: manual
+    added: '2026-05-17'
+  - phrase: roadway crash
+    source: manual
+    added: '2026-05-17'
+  - phrase: injured in car accident
+    source: manual
+    added: '2026-05-17'
+  - phrase: injured in vehicle accident
+    source: manual
+    added: '2026-05-17'
+  - phrase: automobile accident
+    source: manual
+    added: '2026-05-17'
+  - phrase: automobile collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: traffic collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: traffic accident while working
+    source: manual
+    added: '2026-05-17'
+  - phrase: road traffic accident
+    source: manual
+    added: '2026-05-17'
+  - phrase: hit by oncoming vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: sideswiped by vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: rear-ended
+    source: manual
+    added: '2026-05-17'
+  - phrase: vehicle rear end collision
+    source: manual
+    added: '2026-05-17'
+  - phrase: head-on collision
+    source: manual
+    added: '2026-05-17'
+- code: MEI
+  label: Mobile Equipment Instability
+  energy: Kinetic
+  base_score: 1
+  keywords:
+  - phrase: overturn
+    source: manual
+    added: '2026-05-17'
+  - phrase: overturned
+    source: manual
+    added: '2026-05-17'
+  - phrase: rollover
+    source: manual
+    added: '2026-05-17'
+  - phrase: rolled over
+    source: manual
+    added: '2026-05-17'
+  - phrase: tipped over
+    source: manual
+    added: '2026-05-17'
+  - phrase: tip-over
+    source: manual
+    added: '2026-05-17'
+  - phrase: crane tipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: crane overturned
+    source: manual
+    added: '2026-05-17'
+  - phrase: crane collapsed
+    source: manual
+    added: '2026-05-17'
+  - phrase: telehandler tipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: telehandler overturned
+    source: manual
+    added: '2026-05-17'
+  - phrase: excavator tipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: forklift tipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: forklift overturned
+    source: manual
+    added: '2026-05-17'
+  - phrase: equipment tipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: equipment rolled
+    source: manual
+    added: '2026-05-17'
+  - phrase: equipment overturned
+    source: manual
+    added: '2026-05-17'
+  - phrase: equipment unstable
+    source: manual
+    added: '2026-05-17'
+  - phrase: boom truck tipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: aerial lift tipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: ground bearing failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: outrigger failure
+    source: manual
+    added: '2026-05-17'
+  - phrase: mat sank
+    source: manual
+    added: '2026-05-17'
+  - phrase: machine overturned
+    source: manual
+    added: '2026-05-17'
+  - phrase: mast collapsed
+    source: manual
+    added: '2026-05-17'
+  - phrase: boom collapsed
+    source: manual
+    added: '2026-05-17'
+  - phrase: lateral instability
+    source: manual
+    added: '2026-05-17'
+- code: OGP
+  label: Overhead Gravity Path
+  energy: Gravitational
+  base_score: 2
+  keywords:
+  - phrase: struck by falling object
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck from above
+    source: manual
+    added: '2026-05-17'
+  - phrase: object fell on
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by dropped object
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by dislodged object
+    source: manual
+    added: '2026-05-17'
+  - phrase: falling tool struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: falling bolt struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: falling pipe struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: falling debris struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: falling plank struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: falling panel struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: tool fell from above
+    source: manual
+    added: '2026-05-17'
+  - phrase: tool fell from overhead
+    source: manual
+    added: '2026-05-17'
+  - phrase: debris fell from roof
+    source: manual
+    added: '2026-05-17'
+  - phrase: material fell from above
+    source: manual
+    added: '2026-05-17'
+  - phrase: material fell from overhead
+    source: manual
+    added: '2026-05-17'
+  - phrase: dropped tool struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: something fell on worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: pipe fell from scaffold
+    source: manual
+    added: '2026-05-17'
+  - phrase: equipment fell from upper
+    source: manual
+    added: '2026-05-17'
+  - phrase: blender lid struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: lid struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: lid flew off
+    source: manual
+    added: '2026-05-17'
+  - phrase: cover struck worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: object fell on worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: item fell on
+    source: manual
+    added: '2026-05-17'
+  - phrase: material fell on
+    source: manual
+    added: '2026-05-17'
+  - phrase: load fell on
+    source: manual
+    added: '2026-05-17'
+  - phrase: shelf fell on
+    source: manual
+    added: '2026-05-17'
+- code: IEA
+  label: Improvised Elevated Access
+  energy: Gravitational
+  base_score: 2
+  keywords:
+  - phrase: man basket on forklift
+    source: manual
+    added: '2026-05-17'
+  - phrase: man basket on telehandler
+    source: manual
+    added: '2026-05-17'
+  - phrase: improvised platform
+    source: manual
+    added: '2026-05-17'
+  - phrase: improvised scaffold
+    source: manual
+    added: '2026-05-17'
+  - phrase: improvised access
+    source: manual
+    added: '2026-05-17'
+  - phrase: nonstandard platform
+    source: manual
+    added: '2026-05-17'
+  - phrase: non-standard platform
+    source: manual
+    added: '2026-05-17'
+  - phrase: nonstandard access
+    source: manual
+    added: '2026-05-17'
+  - phrase: standing on forklift elevated
+    source: manual
+    added: '2026-05-17'
+  - phrase: standing on pallet elevated
+    source: manual
+    added: '2026-05-17'
+  - phrase: standing on bucket elevated
+    source: manual
+    added: '2026-05-17'
+  - phrase: ladder as work platform
+    source: manual
+    added: '2026-05-17'
+  - phrase: working from pallet elevated
+    source: manual
+    added: '2026-05-17'
+  - phrase: unapproved platform
+    source: manual
+    added: '2026-05-17'
+  - phrase: unapproved access
+    source: manual
+    added: '2026-05-17'
+  - phrase: unapproved lift
+    source: manual
+    added: '2026-05-17'
+  - phrase: standing on vehicle to reach
+    source: manual
+    added: '2026-05-17'
+  - phrase: makeshift platform
+    source: manual
+    added: '2026-05-17'
+  - phrase: makeshift scaffold
+    source: manual
+    added: '2026-05-17'
+- code: CCZ
+  label: Crush/Caught-Between Zone
+  energy: Mechanical
+  base_score: 1
+  keywords:
+  - phrase: caught between
+    source: manual
+    added: '2026-05-17'
+  - phrase: crushed
+    source: manual
+    added: '2026-05-17'
+  - phrase: crushing
+    source: manual
+    added: '2026-05-17'
+  - phrase: pinched between
+    source: manual
+    added: '2026-05-17'
+  - phrase: squeezed between
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in machine
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in equipment
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in gear
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in conveyor
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in auger
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in press
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in roller
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in chain
+    source: manual
+    added: '2026-05-17'
+  - phrase: nip point
+    source: manual
+    added: '2026-05-17'
+  - phrase: entangled in
+    source: manual
+    added: '2026-05-17'
+  - phrase: pulled into machine
+    source: manual
+    added: '2026-05-17'
+  - phrase: pulled into auger
+    source: manual
+    added: '2026-05-17'
+  - phrase: pulled into conveyor
+    source: manual
+    added: '2026-05-17'
+  - phrase: pulled into grinder
+    source: manual
+    added: '2026-05-17'
+  - phrase: pulled into chipper
+    source: manual
+    added: '2026-05-17'
+  - phrase: pulled into stump grinder
+    source: manual
+    added: '2026-05-17'
+  - phrase: drawn into
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in baler
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in grinder
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in shredder
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in mixer
+    source: manual
+    added: '2026-05-17'
+  - phrase: arm caught in
+    source: manual
+    added: '2026-05-17'
+  - phrase: clothing caught in machine
+    source: manual
+    added: '2026-05-17'
+  - phrase: clothing entangled in equipment
+    source: manual
+    added: '2026-05-17'
+  - phrase: pinned between
+    source: manual
+    added: '2026-05-17'
+  - phrase: wedged between
+    source: manual
+    added: '2026-05-17'
+  - phrase: trapped between equipment
+    source: manual
+    added: '2026-05-17'
+  - phrase: compressed between
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in rotating
+    source: manual
+    added: '2026-05-17'
+  - phrase: left index finger amputation
+    source: manual
+    added: '2026-05-17'
+  - phrase: finger amputation
+    source: manual
+    added: '2026-05-17'
+  - phrase: partial amputation
+    source: manual
+    added: '2026-05-17'
+  - phrase: thumb amputation
+    source: manual
+    added: '2026-05-17'
+  - phrase: toe amputation
+    source: manual
+    added: '2026-05-17'
+  - phrase: amputated finger
+    source: manual
+    added: '2026-05-17'
+  - phrase: amputated thumb
+    source: manual
+    added: '2026-05-17'
+  - phrase: amputated toe
+    source: manual
+    added: '2026-05-17'
+  - phrase: degloving injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: avulsion injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: partial finger
+    source: manual
+    added: '2026-05-17'
+  - phrase: finger tip amputation
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in machinery
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in rollers
+    source: manual
+    added: '2026-05-17'
+  - phrase: hand caught in
+    source: manual
+    added: '2026-05-17'
+  - phrase: fingers caught in
+    source: manual
+    added: '2026-05-17'
+  - phrase: hair caught in
+    source: manual
+    added: '2026-05-17'
+  - phrase: clothing caught in
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in drill
+    source: manual
+    added: '2026-05-17'
+  - phrase: mangled hand
+    source: manual
+    added: '2026-05-17'
+  - phrase: crushed finger
+    source: manual
+    added: '2026-05-17'
+  - phrase: crushed hand
+    source: manual
+    added: '2026-05-17'
+  - phrase: crushed foot
+    source: manual
+    added: '2026-05-17'
+  - phrase: amputation
+    source: manual
+    added: '2026-05-17'
+  - phrase: amputated
+    source: manual
+    added: '2026-05-17'
+  - phrase: arm amputated
+    source: manual
+    added: '2026-05-17'
+  - phrase: leg amputated
+    source: manual
+    added: '2026-05-17'
+  - phrase: lower arm amputated
+    source: manual
+    added: '2026-05-17'
+  - phrase: upper arm amputated
+    source: manual
+    added: '2026-05-17'
+  - phrase: hand amputated
+    source: manual
+    added: '2026-05-17'
+  - phrase: foot amputated
+    source: manual
+    added: '2026-05-17'
+  - phrase: digit amputated
+    source: manual
+    added: '2026-05-17'
+  - phrase: blender lid
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in blender
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in mechanism
+    source: manual
+    added: '2026-05-17'
+  - phrase: caught in locking mechanism
+    source: manual
+    added: '2026-05-17'
+  - phrase: tendons severed
+    source: manual
+    added: '2026-05-17'
+  - phrase: tendon laceration
+    source: manual
+    added: '2026-05-17'
+  - phrase: degloving
+    source: manual
+    added: '2026-05-17'
+- code: HTA
+  label: Hazardous Atmosphere/Toxic
+  energy: Atmospheric
+  base_score: 1
+  keywords:
+  - phrase: carbon monoxide
+    source: manual
+    added: '2026-05-17'
+  - phrase: co poisoning
+    source: manual
+    added: '2026-05-17'
+  - phrase: hydrogen sulfide
+    source: manual
+    added: '2026-05-17'
+  - phrase: h2s
+    source: manual
+    added: '2026-05-17'
+  - phrase: toxic gas
+    source: manual
+    added: '2026-05-17'
+  - phrase: toxic fume
+    source: manual
+    added: '2026-05-17'
+  - phrase: toxic atmosphere
+    source: manual
+    added: '2026-05-17'
+  - phrase: toxic vapor
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhaled fume
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhaled vapor
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhaled chemical
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhaled solvent
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhaled gas
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhaled dust
+    source: manual
+    added: '2026-05-17'
+  - phrase: chemical exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: vapor exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: atmospheric hazard
+    source: manual
+    added: '2026-05-17'
+  - phrase: oxygen displacement
+    source: manual
+    added: '2026-05-17'
+  - phrase: methane exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: ammonia exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: chlorine exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: chemical burn
+    source: manual
+    added: '2026-05-17'
+  - phrase: acid exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: caustic exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: solvent poisoning
+    source: manual
+    added: '2026-05-17'
+  - phrase: diesel fume exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: welding fume exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: toxic exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: noxious gas
+    source: manual
+    added: '2026-05-17'
+  - phrase: noxious fume
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhalation of harmful substance
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhalation of substance
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhaled harmful
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhaled fumes
+    source: manual
+    added: '2026-05-17'
+  - phrase: fume inhalation
+    source: manual
+    added: '2026-05-17'
+  - phrase: dust inhalation
+    source: manual
+    added: '2026-05-17'
+  - phrase: vapor inhalation
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhaled smoke
+    source: manual
+    added: '2026-05-17'
+  - phrase: inhaled toxic
+    source: manual
+    added: '2026-05-17'
+  - phrase: exposure through intact skin
+    source: manual
+    added: '2026-05-17'
+  - phrase: exposure through skin
+    source: manual
+    added: '2026-05-17'
+  - phrase: absorbed through skin
+    source: manual
+    added: '2026-05-17'
+  - phrase: skin absorption
+    source: manual
+    added: '2026-05-17'
+  - phrase: chemical on skin
+    source: manual
+    added: '2026-05-17'
+  - phrase: skin contact with chemical
+    source: manual
+    added: '2026-05-17'
+  - phrase: dermal exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: skin exposure to chemical
+    source: manual
+    added: '2026-05-17'
+  - phrase: chemical contacted skin
+    source: manual
+    added: '2026-05-17'
+  - phrase: eyes exposed to chemical
+    source: manual
+    added: '2026-05-17'
+  - phrase: chemical in eyes
+    source: manual
+    added: '2026-05-17'
+  - phrase: substance in eyes
+    source: manual
+    added: '2026-05-17'
+  - phrase: caustic in eyes
+    source: manual
+    added: '2026-05-17'
+  - phrase: splash to eyes
+    source: manual
+    added: '2026-05-17'
+  - phrase: eye exposure to chemical
+    source: manual
+    added: '2026-05-17'
+  - phrase: exposure through eyes
+    source: manual
+    added: '2026-05-17'
+  - phrase: mucous membrane exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: exposure through mucous
+    source: manual
+    added: '2026-05-17'
+  - phrase: breathing in chemical
+    source: manual
+    added: '2026-05-17'
+  - phrase: respiratory exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: occupational exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: chemical burn to skin
+    source: manual
+    added: '2026-05-17'
+  - phrase: acid burn
+    source: manual
+    added: '2026-05-17'
+  - phrase: alkali burn
+    source: manual
+    added: '2026-05-17'
+  - phrase: caustic burn
+    source: manual
+    added: '2026-05-17'
+  - phrase: anhydrous ammonia exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: solvent exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: pesticide exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: herbicide exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: cleaning chemical exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: needlestick exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: needlestick injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: sharps injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: needle puncture
+    source: manual
+    added: '2026-05-17'
+  - phrase: medical injection exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: bloodborne pathogen exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: exposure through medical injection
+    source: manual
+    added: '2026-05-17'
+  - phrase: unintentional needlestick
+    source: manual
+    added: '2026-05-17'
+  - phrase: sharp injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: contaminated needle
+    source: manual
+    added: '2026-05-17'
+  - phrase: abscess from exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: abscess developed
+    source: manual
+    added: '2026-05-17'
+  - phrase: infection from exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: exposure to bodily fluid
+    source: manual
+    added: '2026-05-17'
+  - phrase: bloodborne pathogen
+    source: manual
+    added: '2026-05-17'
+  - phrase: hepatitis exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: chemical splash
+    source: manual
+    added: '2026-05-17'
+  - phrase: splashed with chemical
+    source: manual
+    added: '2026-05-17'
+  - phrase: splashed with acid
+    source: manual
+    added: '2026-05-17'
+  - phrase: exposure to radiation
+    source: manual
+    added: '2026-05-17'
+  - phrase: radiation exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: radioactive exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: exposure to mold
+    source: manual
+    added: '2026-05-17'
+  - phrase: mold exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: biohazard exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: passed out from fumes
+    source: manual
+    added: '2026-05-17'
+  - phrase: faint from fumes
+    source: manual
+    added: '2026-05-17'
+  - phrase: lost consciousness fumes
+    source: manual
+    added: '2026-05-17'
+  - phrase: passed out in walk-in
+    source: manual
+    added: '2026-05-17'
+  - phrase: found unresponsive fumes
+    source: manual
+    added: '2026-05-17'
+- code: TFE
+  label: Thermal/Environmental Exposure
+  energy: Atmospheric
+  base_score: 2
+  keywords:
+  - phrase: heat stroke
+    source: manual
+    added: '2026-05-17'
+  - phrase: heat death
+    source: manual
+    added: '2026-05-17'
+  - phrase: hyperthermia
+    source: manual
+    added: '2026-05-17'
+  - phrase: heat exhaustion
+    source: manual
+    added: '2026-05-17'
+  - phrase: heat illness
+    source: manual
+    added: '2026-05-17'
+  - phrase: heat cramps
+    source: manual
+    added: '2026-05-17'
+  - phrase: heat related illness
+    source: manual
+    added: '2026-05-17'
+  - phrase: heat fatigue
+    source: manual
+    added: '2026-05-17'
+  - phrase: working in extreme heat
+    source: manual
+    added: '2026-05-17'
+  - phrase: working in excessive heat
+    source: manual
+    added: '2026-05-17'
+  - phrase: environmental heat
+    source: manual
+    added: '2026-05-17'
+  - phrase: cold stress
+    source: manual
+    added: '2026-05-17'
+  - phrase: hypothermia
+    source: manual
+    added: '2026-05-17'
+  - phrase: frostbite
+    source: manual
+    added: '2026-05-17'
+  - phrase: wildfire smoke
+    source: manual
+    added: '2026-05-17'
+  - phrase: smoke inhalation
+    source: manual
+    added: '2026-05-17'
+  - phrase: high temperature exposure
+    source: manual
+    added: '2026-05-17'
+  - phrase: working in direct sun
+    source: manual
+    added: '2026-05-17'
+- code: FG-HOLE
+  label: Fall Geometry — Open Hole/Skylight
+  energy: Gravitational
+  base_score: 1
+  keywords:
+  - phrase: fell through skylight
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell through hatch
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell through floor opening
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell through hole
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell through opening
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell through roof opening
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall through skylight
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall through hatch
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall through floor opening
+    source: manual
+    added: '2026-05-17'
+  - phrase: skylight collapsed
+    source: manual
+    added: '2026-05-17'
+  - phrase: skylight gave way
+    source: manual
+    added: '2026-05-17'
+  - phrase: floor opening fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: open hole fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell in hole
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall through grating
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall through grate
+    source: manual
+    added: '2026-05-17'
+  - phrase: broke through floor
+    source: manual
+    added: '2026-05-17'
+  - phrase: broke through skylight
+    source: manual
+    added: '2026-05-17'
+  - phrase: step through opening
+    source: manual
+    added: '2026-05-17'
+- code: FG-LIFT
+  label: Fall Geometry — Aerial Lift
+  energy: Gravitational
+  base_score: 1
+  keywords:
+  - phrase: aerial lift
+    source: manual
+    added: '2026-05-17'
+  - phrase: scissor lift
+    source: manual
+    added: '2026-05-17'
+  - phrase: boom lift
+    source: manual
+    added: '2026-05-17'
+  - phrase: man lift
+    source: manual
+    added: '2026-05-17'
+  - phrase: manlift
+    source: manual
+    added: '2026-05-17'
+  - phrase: elevated work platform
+    source: manual
+    added: '2026-05-17'
+  - phrase: jlg
+    source: manual
+    added: '2026-05-17'
+  - phrase: genie lift
+    source: manual
+    added: '2026-05-17'
+  - phrase: personnel lift
+    source: manual
+    added: '2026-05-17'
+  - phrase: articulating lift
+    source: manual
+    added: '2026-05-17'
+  - phrase: articulated boom
+    source: manual
+    added: '2026-05-17'
+  - phrase: self-propelled lift
+    source: manual
+    added: '2026-05-17'
+  - phrase: snorkel lift
+    source: manual
+    added: '2026-05-17'
+  - phrase: towable lift
+    source: manual
+    added: '2026-05-17'
+  - phrase: awp
+    source: manual
+    added: '2026-05-17'
+- code: FG-ROOF
+  label: Fall Geometry — Roof Edge
+  energy: Gravitational
+  base_score: 1
+  keywords:
+  - phrase: fell from roof
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off roof
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall from roof
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall off roof
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from roof edge
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from peak
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from ridge
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from eave
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from parapet
+    source: manual
+    added: '2026-05-17'
+  - phrase: roof edge fall
+    source: manual
+    added: '2026-05-17'
+  - phrase: roofing fall
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell while roofing
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from flat roof
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from metal roof
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from pitched roof
+    source: manual
+    added: '2026-05-17'
+  - phrase: working on roof fell
+    source: manual
+    added: '2026-05-17'
+- code: FG-SCAF
+  label: Fall Geometry — Scaffold
+  energy: Gravitational
+  base_score: 1
+  keywords:
+  - phrase: fell from scaffold
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off scaffold
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall from scaffold
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall off scaffold
+    source: manual
+    added: '2026-05-17'
+  - phrase: scaffold collapsed
+    source: manual
+    added: '2026-05-17'
+  - phrase: scaffold gave way
+    source: manual
+    added: '2026-05-17'
+  - phrase: scaffold board broke
+    source: manual
+    added: '2026-05-17'
+  - phrase: scaffold board gave way
+    source: manual
+    added: '2026-05-17'
+  - phrase: scaffolding fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: scaffold plank slipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: scaffold plank broke
+    source: manual
+    added: '2026-05-17'
+  - phrase: working on scaffold fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from scaffolding
+    source: manual
+    added: '2026-05-17'
+- code: FG-LAD
+  label: Fall Geometry — Ladder
+  energy: Gravitational
+  base_score: 1
+  keywords:
+  - phrase: fell from ladder
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off ladder
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall from ladder
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall off ladder
+    source: manual
+    added: '2026-05-17'
+  - phrase: ladder slid
+    source: manual
+    added: '2026-05-17'
+  - phrase: ladder fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: ladder gave way
+    source: manual
+    added: '2026-05-17'
+  - phrase: ladder tipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: ladder slipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: ladder kicked
+    source: manual
+    added: '2026-05-17'
+  - phrase: ladder buckled
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell while climbing ladder
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell while descending ladder
+    source: manual
+    added: '2026-05-17'
+  - phrase: missed rung
+    source: manual
+    added: '2026-05-17'
+  - phrase: lost footing on ladder
+    source: manual
+    added: '2026-05-17'
+  - phrase: ladder unstable
+    source: manual
+    added: '2026-05-17'
+  - phrase: ladder wobbled
+    source: manual
+    added: '2026-05-17'
+- code: FG-STR
+  label: Fall Geometry — Elevated Structure
+  energy: Gravitational
+  base_score: 1
+  keywords:
+  - phrase: fell from tower
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from structure
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from building
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from platform
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from deck
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from balcony
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from mezzanine
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from catwalk
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from bridge
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from walkway
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from ironwork
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from elevated level
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from upper level
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from loading dock
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off loading dock
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from elevated walkway
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from work platform
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from elevated platform
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell while doing ironwork
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell while doing erection
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from raised platform
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall from elevation
+    source: manual
+    added: '2026-05-18'
+  - phrase: fell from elevation
+    source: manual
+    added: '2026-05-18'
+- code: FG-VEH
+  label: Fall Geometry — Vehicle/Equipment
+  energy: Gravitational
+  base_score: 2
+  keywords:
+  - phrase: fell from truck
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from equipment
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from machine
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from trailer
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from flatbed
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from step
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from running board
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from cab
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off truck
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off trailer
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off equipment
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off back of truck
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off truck bed
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off tailgate
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell off tractor
+    source: manual
+    added: '2026-05-17'
+  - phrase: dismounting truck fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: dismounting vehicle fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: mounting truck fell
+    source: manual
+    added: '2026-05-17'
+- code: ERG
+  label: Overexertion/MSD
+  energy: Ergonomic
+  base_score: 3
+  keywords:
+  - phrase: overexertion
+    source: manual
+    added: '2026-05-17'
+  - phrase: repetitive motion
+    source: manual
+    added: '2026-05-17'
+  - phrase: ergonomic
+    source: manual
+    added: '2026-05-17'
+  - phrase: musculoskeletal
+    source: manual
+    added: '2026-05-17'
+  - phrase: msd
+    source: manual
+    added: '2026-05-17'
+  - phrase: back strain
+    source: manual
+    added: '2026-05-17'
+  - phrase: shoulder strain
+    source: manual
+    added: '2026-05-17'
+  - phrase: neck strain
+    source: manual
+    added: '2026-05-17'
+  - phrase: muscle strain
+    source: manual
+    added: '2026-05-17'
+  - phrase: back sprain
+    source: manual
+    added: '2026-05-17'
+  - phrase: shoulder sprain
+    source: manual
+    added: '2026-05-17'
+  - phrase: wrist sprain
+    source: manual
+    added: '2026-05-17'
+  - phrase: ankle sprain
+    source: manual
+    added: '2026-05-17'
+  - phrase: knee sprain
+    source: manual
+    added: '2026-05-17'
+  - phrase: lifting injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: awkward posture
+    source: manual
+    added: '2026-05-17'
+  - phrase: pulled muscle
+    source: manual
+    added: '2026-05-17'
+  - phrase: pulled back
+    source: manual
+    added: '2026-05-17'
+  - phrase: herniated disc
+    source: manual
+    added: '2026-05-17'
+  - phrase: rotator cuff
+    source: manual
+    added: '2026-05-17'
+  - phrase: carpal tunnel
+    source: manual
+    added: '2026-05-17'
+  - phrase: cumulative trauma
+    source: manual
+    added: '2026-05-17'
+  - phrase: repetitive strain
+    source: manual
+    added: '2026-05-17'
+  - phrase: tendinitis
+    source: manual
+    added: '2026-05-17'
+  - phrase: bursitis
+    source: manual
+    added: '2026-05-17'
+  - phrase: other exertions
+    source: manual
+    added: '2026-05-17'
+  - phrase: bodily reaction
+    source: manual
+    added: '2026-05-17'
+  - phrase: exertion injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: overexertion while
+    source: manual
+    added: '2026-05-17'
+  - phrase: dislocated while
+    source: manual
+    added: '2026-05-17'
+  - phrase: dislocated knee
+    source: manual
+    added: '2026-05-17'
+  - phrase: dislocated shoulder
+    source: manual
+    added: '2026-05-17'
+  - phrase: non-venomous animal bite
+    source: manual
+    added: '2026-05-17'
+  - phrase: nonvenomous animal bite
+    source: manual
+    added: '2026-05-17'
+  - phrase: animal bite
+    source: manual
+    added: '2026-05-17'
+  - phrase: dog bite
+    source: manual
+    added: '2026-05-17'
+  - phrase: cat bite
+    source: manual
+    added: '2026-05-17'
+  - phrase: bit by dog
+    source: manual
+    added: '2026-05-17'
+  - phrase: bitten by dog
+    source: manual
+    added: '2026-05-17'
+  - phrase: bit by cat
+    source: manual
+    added: '2026-05-17'
+  - phrase: bitten by cat
+    source: manual
+    added: '2026-05-17'
+  - phrase: insect bite
+    source: manual
+    added: '2026-05-17'
+  - phrase: bee sting
+    source: manual
+    added: '2026-05-17'
+  - phrase: wasp sting
+    source: manual
+    added: '2026-05-17'
+  - phrase: hornet sting
+    source: manual
+    added: '2026-05-17'
+  - phrase: snake bite
+    source: manual
+    added: '2026-05-17'
+  - phrase: spider bite
+    source: manual
+    added: '2026-05-17'
+  - phrase: trampled by animal
+    source: manual
+    added: '2026-05-17'
+  - phrase: kicked by animal
+    source: manual
+    added: '2026-05-17'
+  - phrase: kicked by horse
+    source: manual
+    added: '2026-05-17'
+  - phrase: kicked by cow
+    source: manual
+    added: '2026-05-17'
+  - phrase: stepped on by animal
+    source: manual
+    added: '2026-05-17'
+  - phrase: trampled by livestock
+    source: manual
+    added: '2026-05-17'
+  - phrase: horse kick
+    source: manual
+    added: '2026-05-17'
+  - phrase: bull charge
+    source: manual
+    added: '2026-05-17'
+  - phrase: venomous animal bite
+    source: manual
+    added: '2026-05-17'
+  - phrase: venomous insect
+    source: manual
+    added: '2026-05-17'
+  - phrase: venomous snake
+    source: manual
+    added: '2026-05-17'
+  - phrase: insect sting
+    source: manual
+    added: '2026-05-17'
+  - phrase: bee attack
+    source: manual
+    added: '2026-05-17'
+  - phrase: hornet attack
+    source: manual
+    added: '2026-05-17'
+  - phrase: bed bug bite
+    source: manual
+    added: '2026-05-17'
+  - phrase: tick bite
+    source: manual
+    added: '2026-05-17'
+  - phrase: bites and stings
+    source: manual
+    added: '2026-05-17'
+  - phrase: bending crawling reaching twisting
+    source: manual
+    added: '2026-05-17'
+  - phrase: bending reaching twisting
+    source: manual
+    added: '2026-05-17'
+  - phrase: single episode exertion
+    source: manual
+    added: '2026-05-17'
+  - phrase: bodily reaction single episode
+    source: manual
+    added: '2026-05-17'
+  - phrase: leaning over
+    source: manual
+    added: '2026-05-17'
+  - phrase: bent over to pick up
+    source: manual
+    added: '2026-05-17'
+  - phrase: reaching overhead
+    source: manual
+    added: '2026-05-17'
+  - phrase: twisting motion
+    source: manual
+    added: '2026-05-17'
+  - phrase: sudden motion
+    source: manual
+    added: '2026-05-17'
+  - phrase: broken ankle
+    source: manual
+    added: '2026-05-17'
+  - phrase: fractured ankle
+    source: manual
+    added: '2026-05-17'
+  - phrase: ankle fracture
+    source: manual
+    added: '2026-05-17'
+  - phrase: broke ankle
+    source: manual
+    added: '2026-05-17'
+  - phrase: broken wrist
+    source: manual
+    added: '2026-05-17'
+  - phrase: fractured wrist
+    source: manual
+    added: '2026-05-17'
+  - phrase: wrist fracture
+    source: manual
+    added: '2026-05-17'
+  - phrase: broke wrist
+    source: manual
+    added: '2026-05-17'
+  - phrase: broken knee
+    source: manual
+    added: '2026-05-17'
+  - phrase: knee fracture
+    source: manual
+    added: '2026-05-17'
+  - phrase: fractured knee
+    source: manual
+    added: '2026-05-17'
+  - phrase: broken hip
+    source: manual
+    added: '2026-05-17'
+  - phrase: hip fracture
+    source: manual
+    added: '2026-05-17'
+  - phrase: fractured hip
+    source: manual
+    added: '2026-05-17'
+  - phrase: broken leg
+    source: manual
+    added: '2026-05-17'
+  - phrase: fractured leg
+    source: manual
+    added: '2026-05-17'
+  - phrase: broken arm
+    source: manual
+    added: '2026-05-17'
+  - phrase: fractured arm
+    source: manual
+    added: '2026-05-17'
+  - phrase: hand and wrist injuries
+    source: manual
+    added: '2026-05-17'
+  - phrase: wrist and hand
+    source: manual
+    added: '2026-05-17'
+  - phrase: knee injury hospitalized
+    source: manual
+    added: '2026-05-17'
+  - phrase: walked through hallway and injured
+    source: manual
+    added: '2026-05-17'
+  - phrase: injured knee walking
+    source: manual
+    added: '2026-05-17'
+  - phrase: ankle rolled while walking
+    source: manual
+    added: '2026-05-17'
+- code: SBO
+  label: Struck By — Object (Unspecified)
+  energy: Kinetic
+  base_score: 2
+  keywords:
+  - phrase: struck by object
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by bar
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by pipe
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by beam
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by door
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by post
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by pole
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by equipment part
+    source: manual
+    added: '2026-05-17'
+  - phrase: walked into object
+    source: manual
+    added: '2026-05-17'
+  - phrase: walked into equipment
+    source: manual
+    added: '2026-05-17'
+  - phrase: walked into beam
+    source: manual
+    added: '2026-05-17'
+  - phrase: walked into pipe
+    source: manual
+    added: '2026-05-17'
+  - phrase: walked into pole
+    source: manual
+    added: '2026-05-17'
+  - phrase: walked into wall
+    source: manual
+    added: '2026-05-17'
+  - phrase: bumped head
+    source: manual
+    added: '2026-05-17'
+  - phrase: bumped into
+    source: manual
+    added: '2026-05-17'
+  - phrase: bumped against
+    source: manual
+    added: '2026-05-17'
+  - phrase: ran into object
+    source: manual
+    added: '2026-05-17'
+  - phrase: ran into equipment
+    source: manual
+    added: '2026-05-17'
+  - phrase: contact with rotating part
+    source: manual
+    added: '2026-05-17'
+  - phrase: contact with moving part
+    source: manual
+    added: '2026-05-17'
+  - phrase: contact with sharp object
+    source: manual
+    added: '2026-05-17'
+  - phrase: head struck on
+    source: manual
+    added: '2026-05-17'
+  - phrase: head hit on
+    source: manual
+    added: '2026-05-17'
+  - phrase: hit by object
+    source: manual
+    added: '2026-05-17'
+  - phrase: injured by slipping or swinging object
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipping or swinging object held by
+    source: manual
+    added: '2026-05-17'
+  - phrase: object held by injured worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by swinging object
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by slipping object
+    source: manual
+    added: '2026-05-17'
+  - phrase: injured by handheld object
+    source: manual
+    added: '2026-05-17'
+  - phrase: injured by object handled
+    source: manual
+    added: '2026-05-17'
+  - phrase: tool slipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: knife slipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: blade slipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: knife cut
+    source: manual
+    added: '2026-05-17'
+  - phrase: cut with knife
+    source: manual
+    added: '2026-05-17'
+  - phrase: cut by knife
+    source: manual
+    added: '2026-05-17'
+  - phrase: laceration from knife
+    source: manual
+    added: '2026-05-17'
+  - phrase: utility knife
+    source: manual
+    added: '2026-05-17'
+  - phrase: box cutter
+    source: manual
+    added: '2026-05-17'
+  - phrase: x-acto knife
+    source: manual
+    added: '2026-05-17'
+  - phrase: exacto knife
+    source: manual
+    added: '2026-05-17'
+  - phrase: scissors cut
+    source: manual
+    added: '2026-05-17'
+  - phrase: cut with scissors
+    source: manual
+    added: '2026-05-17'
+  - phrase: shears
+    source: manual
+    added: '2026-05-17'
+  - phrase: cable cutter
+    source: manual
+    added: '2026-05-17'
+  - phrase: pruning shears
+    source: manual
+    added: '2026-05-17'
+  - phrase: puncture wound
+    source: manual
+    added: '2026-05-17'
+  - phrase: nail puncture
+    source: manual
+    added: '2026-05-17'
+  - phrase: stepped on nail
+    source: manual
+    added: '2026-05-17'
+  - phrase: stepped on screw
+    source: manual
+    added: '2026-05-17'
+  - phrase: stepped on sharp object
+    source: manual
+    added: '2026-05-17'
+  - phrase: stepped on object
+    source: manual
+    added: '2026-05-17'
+  - phrase: nail through foot
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by falling object
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by swinging
+    source: manual
+    added: '2026-05-17'
+  - phrase: object struck worker
+    source: manual
+    added: '2026-05-17'
+  - phrase: tool struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by tool
+    source: manual
+    added: '2026-05-17'
+  - phrase: hit by tool
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by board
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by lumber
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by rod
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by falling pipe
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by sheet
+    source: manual
+    added: '2026-05-17'
+  - phrase: injured by object breaking in hand
+    source: manual
+    added: '2026-05-17'
+  - phrase: object broke in hand
+    source: manual
+    added: '2026-05-17'
+  - phrase: handle broke
+    source: manual
+    added: '2026-05-17'
+  - phrase: object handle broke
+    source: manual
+    added: '2026-05-17'
+  - phrase: breaking of object
+    source: manual
+    added: '2026-05-17'
+  - phrase: broke in hand
+    source: manual
+    added: '2026-05-17'
+  - phrase: injured by handheld equipment
+    source: manual
+    added: '2026-05-17'
+  - phrase: handheld equipment injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipping or swinging object other than handheld
+    source: manual
+    added: '2026-05-17'
+  - phrase: abrasion on toe
+    source: manual
+    added: '2026-05-17'
+  - phrase: abrasion on foot
+    source: manual
+    added: '2026-05-17'
+  - phrase: abrasion on hand
+    source: manual
+    added: '2026-05-17'
+  - phrase: scraped by
+    source: manual
+    added: '2026-05-17'
+  - phrase: cut by broken glass
+    source: manual
+    added: '2026-05-17'
+  - phrase: glass laceration
+    source: manual
+    added: '2026-05-17'
+  - phrase: broken glass injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: glass shard
+    source: manual
+    added: '2026-05-17'
+  - phrase: metal shard
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by debris
+    source: manual
+    added: '2026-05-17'
+  - phrase: debris struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: flying debris struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: hit by debris
+    source: manual
+    added: '2026-05-17'
+  - phrase: chip struck eye
+    source: manual
+    added: '2026-05-17'
+  - phrase: foreign object in eye
+    source: manual
+    added: '2026-05-17'
+  - phrase: object in eye
+    source: manual
+    added: '2026-05-17'
+  - phrase: metal in eye
+    source: manual
+    added: '2026-05-17'
+  - phrase: sawdust in eye
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck in eye
+    source: manual
+    added: '2026-05-17'
+  - phrase: hit in eye
+    source: manual
+    added: '2026-05-17'
+- code: FG-GEN
+  label: Fall Geometry — General
+  energy: Gravitational
+  base_score: 2
+  keywords:
+  - phrase: fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: fallen
+    source: manual
+    added: '2026-05-17'
+  - phrase: falling
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: tripped
+    source: manual
+    added: '2026-05-17'
+  - phrase: lost footing
+    source: manual
+    added: '2026-05-17'
+  - phrase: lost balance
+    source: manual
+    added: '2026-05-17'
+  - phrase: lost grip
+    source: manual
+    added: '2026-05-17'
+  - phrase: tumbled
+    source: manual
+    added: '2026-05-17'
+  - phrase: pitched forward
+    source: manual
+    added: '2026-05-17'
+  - phrase: pitched off
+    source: manual
+    added: '2026-05-17'
+  - phrase: toppled over
+    source: manual
+    added: '2026-05-17'
+  - phrase: toppled off
+    source: manual
+    added: '2026-05-17'
+  - phrase: knocked to ground
+    source: manual
+    added: '2026-05-17'
+  - phrase: knocked down to floor
+    source: manual
+    added: '2026-05-17'
+  - phrase: slid off
+    source: manual
+    added: '2026-05-17'
+  - phrase: slid down
+    source: manual
+    added: '2026-05-17'
+  - phrase: rolled off
+    source: manual
+    added: '2026-05-17'
+  - phrase: rolled down
+    source: manual
+    added: '2026-05-17'
+  - phrase: stumbled
+    source: manual
+    added: '2026-05-17'
+  - phrase: lost step
+    source: manual
+    added: '2026-05-17'
+  - phrase: missed step
+    source: manual
+    added: '2026-05-17'
+  - phrase: dropped to ground
+    source: manual
+    added: '2026-05-17'
+  - phrase: dropped to floor
+    source: manual
+    added: '2026-05-17'
+  - phrase: feet slipped
+    source: manual
+    added: '2026-05-17'
+  - phrase: feet gave way
+    source: manual
+    added: '2026-05-17'
+  - phrase: floor gave way
+    source: manual
+    added: '2026-05-17'
+  - phrase: ground gave way
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall on same level
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall on same level due to slipping
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall on same level due to tripping
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall same level
+    source: manual
+    added: '2026-05-17'
+  - phrase: same level fall
+    source: manual
+    added: '2026-05-17'
+  - phrase: trip and fall
+    source: manual
+    added: '2026-05-17'
+  - phrase: slip and fall
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipped on ice
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipped on wet floor
+    source: manual
+    added: '2026-05-17'
+  - phrase: tripped over object
+    source: manual
+    added: '2026-05-17'
+  - phrase: tripped over pallet
+    source: manual
+    added: '2026-05-17'
+  - phrase: tripped over cord
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell on same level
+    source: manual
+    added: '2026-05-17'
+  - phrase: other fall to lower level
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall slip trip unspecified
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall unspecified
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall n.e.c.
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall, slip, trip
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell while walking
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipped while walking
+    source: manual
+    added: '2026-05-17'
+  - phrase: tripped while walking
+    source: manual
+    added: '2026-05-17'
+  - phrase: stumbled and fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: lost balance and fell
+    source: manual
+    added: '2026-05-17'
+  - phrase: ankle rolled
+    source: manual
+    added: '2026-05-17'
+  - phrase: stepped off curb
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell down stairs
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell on stairs
+    source: manual
+    added: '2026-05-17'
+  - phrase: stairway fall
+    source: manual
+    added: '2026-05-17'
+  - phrase: tripped on stairs
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipped on stairs
+    source: manual
+    added: '2026-05-17'
+  - phrase: dragged foot on carpet
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell on floor
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell in parking lot
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipped in parking lot
+    source: manual
+    added: '2026-05-17'
+  - phrase: snow and ice fall
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell on ice
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell on wet surface
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipped on grease
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipped on oil
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipped on water
+    source: manual
+    added: '2026-05-17'
+  - phrase: ground level fall
+    source: manual
+    added: '2026-05-17'
+  - phrase: fall at ground level
+    source: manual
+    added: '2026-05-17'
+  - phrase: floor level fall
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell to ground
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from standing height
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell while gathering
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell attempting to gather
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from standing
+    source: manual
+    added: '2026-05-17'
+  - phrase: broke ankle falling
+    source: manual
+    added: '2026-05-17'
+  - phrase: broke hip falling
+    source: manual
+    added: '2026-05-17'
+  - phrase: fractured ankle fall
+    source: manual
+    added: '2026-05-17'
+  - phrase: fractured hip fall
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell in hallway
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell in stairwell
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell in restroom
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell getting out of
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell exiting vehicle
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell stepping out
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell walking across
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipped crossing
+    source: manual
+    added: '2026-05-17'
+  - phrase: slipped stepping
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from loading dock
+    source: manual
+    added: '2026-05-17'
+  - phrase: fell from dock
+    source: manual
+    added: '2026-05-17'
+- code: WPV
+  label: Workplace Violence / Physical Assault
+  energy: Kinetic
+  base_score: 2
+  keywords:
+  - phrase: hitting kicking beating
+    source: manual
+    added: '2026-05-17'
+  - phrase: hitting kicking beating shoving
+    source: manual
+    added: '2026-05-17'
+  - phrase: assault by patient
+    source: manual
+    added: '2026-05-17'
+  - phrase: assaulted by patient
+    source: manual
+    added: '2026-05-17'
+  - phrase: assaulted by customer
+    source: manual
+    added: '2026-05-17'
+  - phrase: assaulted by coworker
+    source: manual
+    added: '2026-05-17'
+  - phrase: assaulted by client
+    source: manual
+    added: '2026-05-17'
+  - phrase: assaulted by inmate
+    source: manual
+    added: '2026-05-17'
+  - phrase: assaulted by resident
+    source: manual
+    added: '2026-05-17'
+  - phrase: physical assault
+    source: manual
+    added: '2026-05-17'
+  - phrase: workplace assault
+    source: manual
+    added: '2026-05-17'
+  - phrase: workplace violence
+    source: manual
+    added: '2026-05-17'
+  - phrase: intentional injury by other person
+    source: manual
+    added: '2026-05-17'
+  - phrase: injury by other person
+    source: manual
+    added: '2026-05-17'
+  - phrase: attacked by person
+    source: manual
+    added: '2026-05-17'
+  - phrase: attacked by patient
+    source: manual
+    added: '2026-05-17'
+  - phrase: beaten by
+    source: manual
+    added: '2026-05-17'
+  - phrase: beaten up
+    source: manual
+    added: '2026-05-17'
+  - phrase: physically attacked
+    source: manual
+    added: '2026-05-17'
+  - phrase: punch to head
+    source: manual
+    added: '2026-05-17'
+  - phrase: struck by fist
+    source: manual
+    added: '2026-05-17'
+  - phrase: punched in face
+    source: manual
+    added: '2026-05-17'
+  - phrase: kicked by patient
+    source: manual
+    added: '2026-05-17'
+  - phrase: push and shove
+    source: manual
+    added: '2026-05-17'
+  - phrase: shoving incident
+    source: manual
+    added: '2026-05-17'
+  - phrase: shoved into wall
+    source: manual
+    added: '2026-05-17'
+  - phrase: shooting by other person
+    source: manual
+    added: '2026-05-17'
+  - phrase: shot by other person
+    source: manual
+    added: '2026-05-17'
+  - phrase: gunshot wound
+    source: manual
+    added: '2026-05-17'
+  - phrase: shot in
+    source: manual
+    added: '2026-05-17'
+  - phrase: gun shot wound
+    source: manual
+    added: '2026-05-17'
+  - phrase: firearm injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: shot while working
+    source: manual
+    added: '2026-05-17'
+  - phrase: stabbed by
+    source: manual
+    added: '2026-05-17'
+  - phrase: stabbing incident
+    source: manual
+    added: '2026-05-17'
+  - phrase: knife attack
+    source: manual
+    added: '2026-05-17'
+  - phrase: stabbed at work
+    source: manual
+    added: '2026-05-17'
+  - phrase: strangulation by other person
+    source: manual
+    added: '2026-05-17'
+  - phrase: strangulated
+    source: manual
+    added: '2026-05-17'
+  - phrase: choked by patient
+    source: manual
+    added: '2026-05-17'
+  - phrase: choked by
+    source: manual
+    added: '2026-05-17'
+  - phrase: strangled by
+    source: manual
+    added: '2026-05-17'
+  - phrase: throttled by
+    source: manual
+    added: '2026-05-17'
+  - phrase: intentional act by other
+    source: manual
+    added: '2026-05-17'
+  - phrase: perpetrated by another person
+    source: manual
+    added: '2026-05-17'
+  - phrase: hit with weapon
+    source: manual
+    added: '2026-05-17'
+  - phrase: attacked with weapon
+    source: manual
+    added: '2026-05-17'
+  - phrase: physical contact while restraining
+    source: manual
+    added: '2026-05-17'
+  - phrase: restraining patient
+    source: manual
+    added: '2026-05-17'
+  - phrase: subduing patient
+    source: manual
+    added: '2026-05-17'
+  - phrase: while subduing
+    source: manual
+    added: '2026-05-17'
+  - phrase: while restraining
+    source: manual
+    added: '2026-05-17'
+  - phrase: patient attacked
+    source: manual
+    added: '2026-05-17'
+  - phrase: inmate attacked
+    source: manual
+    added: '2026-05-17'
+  - phrase: prisoner attacked
+    source: manual
+    added: '2026-05-17'
+  - phrase: customer violence
+    source: manual
+    added: '2026-05-17'
+  - phrase: robbery assault
+    source: manual
+    added: '2026-05-17'
+  - phrase: robbery injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: shot during robbery
+    source: manual
+    added: '2026-05-17'
+  - phrase: robbed at gunpoint
+    source: manual
+    added: '2026-05-17'
+  - phrase: domestic incident at work
+    source: manual
+    added: '2026-05-17'
+  - phrase: domestic violence at workplace
+    source: manual
+    added: '2026-05-17'
+  - phrase: physical contact during horseplay
+    source: manual
+    added: '2026-05-17'
+  - phrase: horseplay injury
+    source: manual
+    added: '2026-05-17'
+  - phrase: injured by other person unintentional
+    source: manual
+    added: '2026-05-17'
+  - phrase: hitting kicking beating by other person
+    source: manual
+    added: '2026-05-17'
+  - phrase: injury by other person unintentional
+    source: manual
+    added: '2026-05-17'
+  - phrase: injury by other person intent unknown
+    source: manual
+    added: '2026-05-17'
+  - phrase: injured by physical contact during horseplay
+    source: manual
+    added: '2026-05-17'
+  - phrase: shot in store
+    source: manual
+    added: '2026-05-17'
+  - phrase: shot during working hours
+    source: manual
+    added: '2026-05-17'
+  - phrase: shot at work
+    source: manual
+    added: '2026-05-17'
+  - phrase: attacked by assailant
+    source: manual
+    added: '2026-05-17'
+  - phrase: assaulted during work
+    source: manual
+    added: '2026-05-17'
+  - phrase: attacked during work
+    source: manual
+    added: '2026-05-17'
+  - phrase: patient threw
+    source: manual
+    added: '2026-05-17'
+  - phrase: patient hit employee
+    source: manual
+    added: '2026-05-17'
+  - phrase: patient struck employee
+    source: manual
+    added: '2026-05-17'
+  - phrase: patient punched
+    source: manual
+    added: '2026-05-17'
+  - phrase: patient kicked
+    source: manual
+    added: '2026-05-17'
+  - phrase: patient bit
+    source: manual
+    added: '2026-05-17'
+  - phrase: inmate struck
+    source: manual
+    added: '2026-05-17'
+  - phrase: three to four assailants
+    source: manual
+    added: '2026-05-17'
+  - phrase: multiple assailants
+    source: manual
+    added: '2026-05-17'
+  - phrase: domestic violence at work
+    source: manual
+    added: '2026-05-17'
+  - phrase: gun shot at work
+    source: manual
+    added: '2026-05-17'
+  - phrase: microwaved and threw
+    source: manual
+    added: '2026-05-17'
+  - phrase: thrown at by patient
+    source: manual
+    added: '2026-05-17'
